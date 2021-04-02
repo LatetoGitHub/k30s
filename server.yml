@@ -1,0 +1,14 @@
+# the hostname you want to use for the Pi
+hostname: k3os
+
+# a public key if you intend to use ssh to connect to the node. This is highly recommended since k3OS has no root user.
+ssh_authorized_keys:
+  - "github:LatetoGitHub"
+
+
+k3OS:
+  ntp_servers:
+    - 0.us.pool.ntp.org
+    - 1.us.pool.ntp.org
+
+  token: kenny
