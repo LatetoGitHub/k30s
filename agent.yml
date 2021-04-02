@@ -3,6 +3,8 @@ ssh_authorized_keys:
 
 
 k3OS:
+  k3s_args:
+  - agent
   ntp_servers:
     - 0.us.pool.ntp.org
     - 1.us.pool.ntp.org
